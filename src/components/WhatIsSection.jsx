@@ -1,4 +1,5 @@
-import primg from "../assets/whatis.png";
+import primg from "@/assets/whatis.png";
+
 const WhatIsSection = () => {
     return (
       <section id="what-is" className="py-28 pt-32 pb-20 px-4 lg:px-8 min-h-screen flex items-center">

@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Play } from 'lucide-react';
-import heroImg from "../assets/propertyown.png";
+// import heroImg from "../assets/propertyown.png";
+import heroImg from "@/assets/propertyown.png";
+
 const HeroSection = () => {
   return (
     <section id="home" className="bg-[#001d3d] pt-32 pb-20 px-4 lg:px-8 min-h-screen flex items-center">
