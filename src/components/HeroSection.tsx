@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Play } from 'lucide-react';
-
+import heroImg from "../assets/propertyown.png";
 const HeroSection = () => {
   return (
     <section id="home" className="bg-[#001d3d] pt-32 pb-20 px-4 lg:px-8 min-h-screen flex items-center">
@@ -50,7 +50,8 @@ const HeroSection = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-purple-100 to-blue-100 dark:from-purple-900/20 dark:to-blue-900/20">
                 <img 
-                  src="src/assets/propertyown.png"
+                  src={heroImg} 
+                  
                   alt="Team collaboration dashboard showing project management interface"
                   className="w-full h-auto object-cover aspect-[4/3] lg:aspect-[3/4] xl:aspect-[4/3]"
                   loading="lazy"

@@ -1,3 +1,4 @@
+import primg from "../assets/whatis.png";
 const WhatIsSection = () => {
     return (
       <section id="what-is" className="py-28 pt-32 pb-20 px-4 lg:px-8 min-h-screen flex items-center">
@@ -9,7 +10,8 @@ const WhatIsSection = () => {
               <div className="relative">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20">
                   <img
-                    src="src/assets/whatis.png"
+                    
+                    src={primg}
                     alt="Residential and mixed-use property visual"
                     className="w-full h-auto object-cover aspect-[4/3] lg:aspect-[3/4] xl:aspect-[4/3]"
                     loading="lazy"
